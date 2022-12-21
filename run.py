@@ -8,9 +8,9 @@ import torch
 import torch.nn as nn
 
 import utils
-from EDSR.edsr import EDSR
-from modules import DSN
-from adaptive_gridsampler.gridsampler import Downsampler
+from CAR.EDSR.edsr import EDSR
+from CAR.modules import DSN
+from CAR.adaptive_gridsampler.gridsampler import Downsampler
 from skimage.color import rgb2ycbcr
 
 
